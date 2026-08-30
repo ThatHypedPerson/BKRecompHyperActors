@@ -16,14 +16,14 @@ display_name = "Hyper Actors"
 
 # The description that will show up when this mod is displayed in the mod menu. This should be human readable.
 description =  """
-nyoom"""
+actor go fast"""
 
 # A short description that will show up in this mod's entry in the mod list. This should be human readable and kept short
 # to prevent it from being cut off due to the limited space.
-short_description = "actor go fast"
+short_description = "nyoom"
 
 # Authors of this mod.
-authors = [ "Your name here" ]
+authors = [ "Hyped (ThatHypedPerson)" ]
 
 # ID of the target recomp game.
 game_id = "bk"
@@ -69,10 +69,10 @@ additional_files = [ ]
 [[manifest.config_options]]
 id = "update_rate"
 name = "Hyper Speed Multiplier"
-description = "Sets how much \"faster\" enemies are."
+description = "Sets how much \"faster\" actors are."
 type = "Number"
 min = 1
-max = 10
+max = 5
 step = 1
 precision = 1
 percent = false
